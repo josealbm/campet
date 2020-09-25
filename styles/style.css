@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkgrey;
+    text-decoration: solid;
+}
+
+.circle {
+    border-radius: 100%;
+    background: black;
+    border: white solid;
+    display: inline-block;
+    line-height: 100px;
+}
