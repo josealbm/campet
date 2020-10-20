@@ -8,6 +8,14 @@ a {
     color: white;
 }
 
+.logo {
+    border-radius: 100%;
+    background: white;
+    border: black;
+    color: black;
+    height: 150px;
+    width: 150px;
+}
 .circle {
     /* display: flex; */
     border-radius: 100%;
@@ -43,7 +51,7 @@ a {
     margin: auto;
 }
 
-ul {
+#circlemenu {
     position: relative;
     top: 200px;
     left: 200px;
@@ -53,7 +61,7 @@ ul {
     padding: 0;
 }
 
-li {
+#circlemenu li {
     position: absolute;
     -webkit-transition: all 2s linear;
     -moz-transition: all 2s linear;

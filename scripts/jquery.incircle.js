@@ -7,9 +7,9 @@
             color: "#556b2f",
             backgroundColor: "white",
             type: 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
-            radius: '15em', //distance from center
+            radius: '13em', //distance from center
             start: -90, //shift start from 0
-            top: '280px',
+            top: '220px',
             left: 'calc(50% - 5em)'
         }, options);
 
