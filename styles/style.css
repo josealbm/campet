@@ -1,6 +1,11 @@
 body {
-    background-color:#343a40;
+    background: url("/images/logo.png") no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-color: whitesmoke;
+    /* background-color:#343a40; */
     color: white;
+    height: 100%;
 }
 
 a {
@@ -11,7 +16,8 @@ a {
 .logo {
     border-radius: 100%;
     border: white solid;
-    background: #343a40;
+    background-color: whitesmoke;
+    /* background: #343a40; */
     border: black;
     color: black;
     height: 150px;
@@ -38,7 +44,7 @@ a {
 
 .circle:hover {
     border-radius: 100%;
-    background: white;
+    background: whitesmoke;
     border: black;
     color: #108a3a;
     /* color: black; */
