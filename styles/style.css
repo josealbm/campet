@@ -85,6 +85,9 @@ a {
 
 .menu {
     background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
 
 }
 
@@ -107,4 +110,6 @@ a {
 
 .jumbotron {
     color: black;
+    width: 80%;
+    margin: auto;
 }
