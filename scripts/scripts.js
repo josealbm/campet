@@ -1,7 +1,12 @@
-window.onload = function(){
-$(function() {
-    $('#circlemenu').incircle();
-})
+window.onload = function () {
+    $(function () {
+        $('#circlemenu').incircle();
+    })
+    
+    $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    });
 };
 
 var sourceSwap = function () {
@@ -11,8 +16,9 @@ var sourceSwap = function () {
     $this.attr('src', newSource);
 }
 
-$(function() {
-    $('img[data-alt-src]').each(function() { 
-        new Image().src = $(this).data('alt-src'); 
-    }).hover(sourceSwap, sourceSwap); 
+$(function () {
+    $('img[data-alt-src]').each(function () {
+        new Image().src = $(this).data('alt-src');
+    }).hover(sourceSwap, sourceSwap);
 });
+
