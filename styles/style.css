@@ -11,10 +11,10 @@ font-display:auto;font-style:normal;font-weight:400;
 html body{
     font-family: "century-gothic", CenturyGothic, AppleGothic, sans-serif;
     overflow-x: hidden;
-    /* background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat; */
-    /* background-position: center; */
-    /* background-color: whitesmoke; */
+    background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat;
+    background-position: 50% 120%;
     background-size: cover;
+    /* background-color: whitesmoke; */
     background-color: lightgray;
     color: white;
     height: 100%;
@@ -52,9 +52,10 @@ a {
     /* background: #108a3a; */
     border: white solid;
     color: #108a3a;
-    display: inline-block;
-    height: 150px;
-    width: 150px;
+    display: none;
+    /* display: inline-block; */
+    height: 120px;
+    width: 120px;
     justify-content: center;
     align-content: center;
 }
@@ -76,38 +77,38 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 33px;
+    margin-top: 24px;
 }
 
 .circle p i {
-    font-size: 5em;
+    font-size: 4em;
     margin: auto;
 }
 
-.menu {
+/* .menu {
     background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat;
     height: 700px;
     width: 100%;
     background-size: cover;
 
-}
+} */
 
-#circlemenu {
+/* #circlemenu {
     position: relative;
     top: 200px;
     left: 200px;
-    /*for example purposes only*/
+    /*for example purposes only
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+} */
 
-#circlemenu li {
+/* #circlemenu li {
     position: absolute;
     /* -webkit-transition: all 1s linear;
     -moz-transition: all 1s linear;
-    transition: all 1s linear; */
-}
+    transition: all 1s linear;
+} */
 
 .jumbotron {
     color: black;

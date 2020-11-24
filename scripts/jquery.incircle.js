@@ -6,11 +6,11 @@
         var settings = $.extend({
             color: "#556b2f",
             backgroundColor: "white",
-            type: 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
-            radius: '14em', //distance from center
-            start: -90, //shift start from 0
+            type: 0.5, //circle type - 1 whole, 0.5 half, 0.25 quarter
+            radius: '10em', //distance from center
+            start: -180, //shift start from 0
             top: '16em',
-            left: 'calc(50% - 5em)'
+            left: 'calc(50% - 4em)'
         }, options);
 
         this.css({
