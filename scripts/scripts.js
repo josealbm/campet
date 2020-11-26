@@ -1,27 +1,17 @@
-window.onload = function () {
-    // $(function () {
-    //     $('#circlemenu').incircle();
-    // })
-
+$(document).ready(function() {
+    // $('body').css('background', 'url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat')
     $(function () {
         $("#header").load("header.html");
         $("#footer").load("footer.html");
     });
 
-    // $(".circle").first().show("slow", function showNext() {
-    //     // $(this).css("display", "inline-block");
-    //     $(this).next(".circle").show("slow", showNext).css("display", "inline-block");
-    // }).css("display", "inline-block")
-};
-
-$(document).ready(function() {
-    (function() { 
-       var elem = $('.circle').hide(); 
-              var i = 0; 
-              (function displayImages() { 
-                     elem.eq(i++).fadeIn(200, displayImages).css("display", "inline-block"); 
-              })();   
-    })(); 
+    $(function() { 
+        var elem = $('.circle').hide(); 
+               var i = 0; 
+               (function displayImages() { 
+                      elem.eq(i++).fadeIn(200, displayImages).css("display", "inline-block"); 
+               })();   
+     });   
 });
 
 
