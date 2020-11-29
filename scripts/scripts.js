@@ -9,7 +9,7 @@ $(document).ready(function() {
         var elem = $('.circle').hide(); 
                var i = 0; 
                (function displayImages() { 
-                      elem.eq(i++).fadeIn(200, displayImages).css("display", "inline-block"); 
+                      elem.eq(i++).fadeIn(500, displayImages).css("display", "inline-block"); 
                })();   
      });   
 });

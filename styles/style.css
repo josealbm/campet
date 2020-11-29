@@ -24,25 +24,8 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #108a3a;
 }
-
-/* .logo {
-    border-radius: 100%;
-    border: white solid;
-    background-color: whitesmoke;
-    border: black;
-    color: black;
-    height: 200px;
-    width: 200px;
-    transition: transform 1s;
-    position: relative;
-    bottom: 30px;
-    right: 25px;
-}
-.logo:hover{
-    transform: scale(1.2);
-} */
 
 .circle {
     border-radius: 100%;
@@ -77,34 +60,18 @@ a {
     margin: auto;
 }
 
-/* .menu {
-    background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat;
-    height: 700px;
-    width: 100%;
-    background-size: cover;
-
-} */
-
 #circlemenu {
     position: relative;
     top: 600px;
     left: calc(50% - 32rem);
 }
 
-/* #circlemenu li {
-    position: absolute;
-    /* -webkit-transition: all 1s linear;
-    -moz-transition: all 1s linear;
-    transition: all 1s linear;
-} */
-
 .jumbotron {
     color: black;
-    width: 70%;
+    width: 90%;
     margin: auto;
     margin-top: 5em;
     margin-bottom: 5em;
-    /* padding: 5em; */
 }
 
 .card-deck {
