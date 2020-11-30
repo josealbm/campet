@@ -36,12 +36,13 @@ a {
     height: 120px;
     width: 120px;
     margin: 2em;
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .circle:hover {
     border-radius: 100%;
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .carousel {
