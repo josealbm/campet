@@ -8,13 +8,14 @@ font-display:auto;font-style:normal;font-weight:400;
 
 .tk-century-gothic { font-family: "century-gothic",sans-serif; }
 
-body {
-    font-family: "century-gothic", CenturyGothic, AppleGothic, sans-serif;
-    overflow-x: hidden;
+.main {
     background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png") no-repeat;
     background-position: 50% 100%;
     background-size: cover;
-    /* background-color: whitesmoke; */
+}
+body {
+    font-family: "century-gothic", CenturyGothic, AppleGothic, sans-serif;
+    overflow-x: hidden;
     background-color: lightgray;
     color: white;
     height: 100%;
@@ -47,6 +48,7 @@ a {
 
 .carousel {
     margin: 2em;
+    width: 100%;
 }
 
 .circle p {
@@ -69,10 +71,14 @@ a {
 
 .jumbotron {
     color: black;
-    width: 90%;
+    width: 75%;
     margin: auto;
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+.jumbotron h3 {
+    color: #108a3a;
 }
 
 .card-deck {
