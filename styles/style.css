@@ -25,7 +25,10 @@ body {
 
 a {
     text-decoration: none;
-    color: #108a3a;
+}
+
+.nav-link:hover, .dropdown-item:hover{
+    color: #108a3a !important;
 }
 
 .circle {
@@ -122,7 +125,8 @@ header span {
 }
 
 footer span:hover, header span:hover {
-    color: rgba(255,255,255,.75);
+    /* color: rgba(255,255,255,.75); */
+    color: #108a3a;
     transform: scale(1.1);
 }
 
