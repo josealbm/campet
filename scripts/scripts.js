@@ -15,6 +15,11 @@ $(document).ready(function () {
     $(function () {
         $(document).tooltip();
     });
+
+    $(function(){
+        $('.selectpicker').selectpicker();
+        console.log("patata");
+    });
 });
 
 
