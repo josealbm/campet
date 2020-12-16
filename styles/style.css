@@ -68,8 +68,8 @@ a {
 
 #circlemenu {
     position: relative;
-    top: 600px;
-    left: calc(50% - 32rem);
+    top: 70vh;
+    left: 5vh;
 }
 
 .jumbotron {
@@ -80,7 +80,7 @@ a {
     margin-bottom: 5em;
 }
 
-.jumbotron h3, .card-title {
+.jumbotron h3, .card-title, .card-body h6 {
     color: #108a3a;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@ a {
 }
 
 .card-deck {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 3em;
 }
@@ -106,6 +106,10 @@ a {
 
 .card ul {
     list-style-type: none;
+}
+
+#footer {
+    height: 200px;
 }
 
 footer p {

@@ -9,17 +9,17 @@ $(document).ready(function () {
         var elem = $('.circle').hide();
         var i = 0;
         (function displayImages() {
-            elem.eq(i++).fadeIn(500, displayImages).css("display", "inline-block");
+            elem.eq(i++).fadeIn(400, displayImages).css("display", "inline-block");
         })();
     });
     $(function () {
         $(document).tooltip();
     });
 
-    $(function(){
-        $('.selectpicker').selectpicker();
-        console.log("patata");
-    });
+    // $(function(){
+    //     $('.selectpicker').selectpicker();
+    //     console.log("patata");
+    // });
 });
 
 
