@@ -94,7 +94,7 @@ a {
     margin-bottom: 0;
 }
 
-.card-deck {
+#cards {
     width: 100%;
     margin: auto;
     padding: 3em;
@@ -144,3 +144,4 @@ footer span:hover, header span:hover {
     height: 100%;
     object-fit: cover;
 }
+
