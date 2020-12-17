@@ -195,19 +195,19 @@ footer span:hover, header span:hover {
 
 @media only screen and (max-width: 575px){
     .main {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         background: url("/images/LOGOS-DIFERENTS-MIDES/positiu-negre-verd-400px.png") no-repeat;
         background-position: 50% 0%;
         /* background-size: cover; */
     }
     .circle {
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
         margin: 0.1em;
     }
     #circlemenu {
-        left: 8vh;
-        top: 25vh;
+        left: 0vh;
+        top: 33vh;
     }
     footer img {
         margin-left: 18%;
