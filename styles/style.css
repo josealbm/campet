@@ -244,9 +244,9 @@ header span:hover {
     /* background-size: cover; */
   }
   .circle {
-    height: 50px;
-    width: 50px;
-    margin: 0.1em;
+    height: 45px;
+    width: 45px;
+    margin: 0.7em;
     box-shadow: 3px -3px #108a3a;
   }
 
@@ -254,12 +254,21 @@ header span:hover {
     margin-top: 11px;
   }
   #circlemenu {
-    left: 0vh;
-    top: 33vh;
+    left: -2vh;
+    top: 25vh;
   }
   footer img {
-    margin-left: 18%;
+    position: relative;
+    bottom: -32px;
+    width: 50%;
+    margin-left: 0%;
   }
+
+  .social {
+    position: relative;
+    left: 185px;
+    bottom: 50px;
+}
 }
 
 @media only screen and (max-width: 1199px) and (orientation: landscape) {
