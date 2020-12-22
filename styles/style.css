@@ -20,7 +20,7 @@
 .main {
   background: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/1600X1200px/positiu-negre-verd.png")
     no-repeat;
-  background-position: 50% 100%;
+  background-position: 50% 75%;
   background-size: cover;
 }
 body {
@@ -44,20 +44,22 @@ a {
 
 .circle {
   border-radius: 100%;
-  background: black;
-  border: #108a3a solid;
-  color: #108a3a;
+  background: rgb(228, 225, 225);
+  border: black solid;
+  color: black;
   display: none;
   height: 120px;
   width: 120px;
   margin: 2em;
-  transition: transform 0.5s;
+  transition: transform 0.7s;
+  box-shadow: 10px -6px #108a3a;
 }
 
 .circle:hover {
   border-radius: 100%;
-  transform: scale(1.2);
+  transform: scale(0.9);
   cursor: pointer;
+  box-shadow: 5px -3px #108a3a;
 }
 
 .carousel {
@@ -79,7 +81,7 @@ a {
 
 #circlemenu {
   position: relative;
-  top: 70vh;
+  top: 60vh;
   left: 5vh;
 }
 
@@ -122,10 +124,10 @@ a {
   list-style-type: none;
 }
 
-#footer {
+.main footer {
   position: absolute;
   bottom: 0;
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
 }
 
@@ -212,7 +214,7 @@ header span:hover {
   }
 }
 
-@media only screen and (max-width: 575px) and (orientation: portrait) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
   .main {
     font-size: 0.5rem;
     background: url("/images/LOGOS-DIFERENTS-MIDES/positiu-negre-verd-400px.png")
@@ -224,6 +226,32 @@ header span:hover {
     height: 70px;
     width: 70px;
     margin: 0.1em;
+  }
+  #circlemenu {
+    left: 0vh;
+    top: 33vh;
+  }
+  footer img {
+    margin-left: 18%;
+  }
+}
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+  .main {
+    font-size: 0.35rem;
+    background: url("/images/LOGOS-DIFERENTS-MIDES/positiu-negre-verd-280px.png")
+      no-repeat;
+    background-position: 50% 0%;
+    /* background-size: cover; */
+  }
+  .circle {
+    height: 50px;
+    width: 50px;
+    margin: 0.1em;
+    box-shadow: 3px -3px #108a3a;
+  }
+
+  .circle p {
+    margin-top: 11px;
   }
   #circlemenu {
     left: 0vh;
@@ -257,28 +285,50 @@ header span:hover {
 }
 
 @media only screen and (max-width: 991px) and (orientation: landscape) {
-    .circle {
-      margin: 0.5em;
-    }
-    #circlemenu {
-      left: 1vh;
-    }
+  .circle {
+    margin: 0.5em;
   }
+  #circlemenu {
+    left: 1vh;
+  }
+}
 
-  @media only screen and (max-width: 767px) and (orientation: landscape) {
-    .main {
-      font-size: 0.6rem;
-      background: url("/images/LOGOS-DIFERENTS-MIDES/positiu-negre-verd-600px.png")
-        no-repeat;
-      background-position: 50% 0%;
-      /* background-size: cover; */
-    }
-    .circle {
-      height: 75px;
-      width: 75px;
-      margin: 0.3em;
-    }
-    #circlemenu {
-      top: 55vh;
-    }
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .main {
+    font-size: 0.6rem;
+    background: url("/images/LOGOS-DIFERENTS-MIDES/positiu-negre-verd-600px.png")
+      no-repeat;
+    background-position: 50% 0%;
+    /* background-size: cover; */
   }
+  .circle {
+    height: 75px;
+    width: 75px;
+    margin: 0.3em;
+  }
+  #circlemenu {
+    top: 55vh;
+  }
+}
+
+@media only screen and (max-width: 575px) and (orientation: landscape) {
+  .main {
+    font-size: 0.5rem;
+    background: url("/images/LOGOS-DIFERENTS-MIDES/positiu-negre-verd-400px.png")
+      no-repeat;
+    background-position: 50% 0%;
+    /* background-size: cover; */
+  }
+  .circle {
+    height: 70px;
+    width: 70px;
+    margin: 0.1em;
+  }
+  #circlemenu {
+    left: 0vh;
+    top: 33vh;
+  }
+  footer img {
+    margin-left: 18%;
+  }
+}
