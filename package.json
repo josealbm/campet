@@ -1,0 +1,32 @@
+{
+  "name": "campet",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-switch": "^3.4.0"
+  },
+  "engines": {
+    "node": "10.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josealbm/campet.git"
+  },
+  "keywords": [
+    "estudis",
+    "campet",
+    "music",
+    "recording"
+  ],
+  "author": "Jose Alberto Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josealbm/campet/issues"
+  },
+  "homepage": "https://github.com/josealbm/campet#readme"
+}
