@@ -1,19 +1,19 @@
 <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html"><img src="./images/negatiu-blanc-tallat.png" alt="logo"></a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item cat">
+                <li class="nav-item hide cat">
                     <a class="nav-link" href="index.html">Inici</a>
                 </li>
-                <li class="nav-item es" style="display: none">
+                <li class="nav-item hide es" style="display: none">
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item dropdown cat">
+                <li class="nav-item dropdown  cat">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Producció</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -65,7 +65,7 @@
                     <input id="switchlanguage" type="checkbox" name="change-language" data-toggle="switch">
                 </li>
             </ul>
-            <li class="social mb-0 text-muted pb-0 row">
+            <li class="social mb-0 text-muted pb-0 hide row">
                 <span class="nav-link" onclick="location.href='https://www.facebook.com/campetestudis';"><i
                         class="fab fa-facebook" aria-hidden="true"></i></span>
                 <span class="nav-link" onclick="location.href='https://www.instagram.com/estudiscampet/';"><i
@@ -85,6 +85,8 @@
         onText: '<img style="height: 25px; width: 25px" src="../images/esp.ico">',
         offText: '<img style="height: 25px; width: 25px" src="../images/cat.ico">',
         labelText: 'Idioma',
+        onColor: 'default',
+        offColor: 'default',
         onSwitchChange: function () {
             if ($("#switchlanguage").bootstrapSwitch('state')) {
                 $(".es").show()
