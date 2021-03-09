@@ -137,10 +137,6 @@ footer span {
   transition: transform 1s;
 }
 
-footer .social {
-  text-align: left;
-}
-
 header span {
   cursor: pointer;
   font-size: 2em;
@@ -167,9 +163,9 @@ header span:hover {
 
 footer .social {
   position: absolute;
-  bottom: 1vh;
-  left: 80%;
-
+  text-align: left;
+  bottom: 0vh;
+  left: 60%;
 }
 .nav-brand img {
   max-width: 100%;
