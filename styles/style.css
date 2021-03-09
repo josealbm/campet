@@ -262,6 +262,9 @@ footer .social {
   #circlemenu {
     top: 40vh;
   }
+  #cards {
+    padding: 0em;
+  }
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
@@ -304,7 +307,6 @@ footer .social {
     margin-top: 11px;
   }
   #circlemenu {
-    left: -2vh;
     top: 25vh;
   }
   footer img {
