@@ -35,10 +35,7 @@ a, a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
-
-  display: flex;
-  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+  background-image: url("/images/LOGOS-DIFERENTS-MIDES/PER-WEB-XARXES-SOCIALS/300x225px/positiu-verd-i-negre.png"), linear-gradient(-20deg, lightgray 0%, #423e53 100%);
 
   @media screen and (max-width: 768px) {
     height: auto;
